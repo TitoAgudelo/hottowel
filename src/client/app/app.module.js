@@ -7,7 +7,9 @@
     'app.admin',
     'app.dashboard',
     'app.layout',
-    'app.test'
+    'app.test',
+    'app.areas',
+    'app.area'
   ]);
 
 })();

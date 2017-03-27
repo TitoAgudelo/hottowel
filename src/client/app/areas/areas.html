@@ -1,0 +1,36 @@
+<section id="dashboard-view" class="mainbar">
+  <section class="matter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+			<table>
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>name</th>
+						<th>registerDate</th>
+						<th>IdState</th>
+						<th>abbreviation</th>
+						<th>code</th>
+						<th>type</th>
+						<th>tests</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="area in vm.areas">
+						<td>{{area.id}}</td>
+						<td>{{area.name}}</td>
+						<td>{{area.registerDate}}</td>
+						<td>{{area.IdState}}</td>
+						<td>{{area.abbreviation}}</td>
+						<td>{{area.code}}</td>
+						<td>{{area.type}}</td>
+						<td>{{area.tests}}</td>
+					</tr>
+				</tbody>
+			</table>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
